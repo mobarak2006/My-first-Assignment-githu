@@ -1,0 +1,75 @@
+
+.open-sans-reguler {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  }
+  body{
+    margin: 0;
+  }
+
+  /* header design */
+header{
+  background-image:url("/background-img.png");
+  width: auto;
+  height: 720px;
+}
+
+/* nav styles */
+
+nav a{
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: bolder;
+  color: #4E47FF;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 150px;
+}
+nav button{
+  background-color: #4E47FF;
+  color: white;
+  padding: 10px 20px ;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+nav button:hover{
+  background-color: coral;
+}
+
+/* banner style */
+
+.Banner{
+  text-align: center;
+  justify-content: center;
+  margin: 150px 270px ;
+}
+.banner-headline{
+  font-size: 65px;  
+  font-weight: 800;
+}
+.Banner button{
+  background-color: #4E47FF;
+   color: white;
+   border: none; 
+   padding:10px 20px ;
+   border-radius: 5px;
+   font-weight: bold;
+   cursor: pointer;
+   transition: 0.3s;  
+   font-size: 16px;   
+}
+.Banner button:hover{
+  background-color: coral;
+}
+
