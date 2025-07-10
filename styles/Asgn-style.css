@@ -52,6 +52,7 @@ nav button:hover{
   text-align: center;
   justify-content: center;
   margin: 150px 270px ;
+  padding-bottom: 100px;
 }
 .banner-headline{
   font-size: 65px;  
@@ -72,3 +73,52 @@ nav button:hover{
   background-color: coral;
 }
 
+/* action-section design */
+.action-part{
+  display: flex;
+  justify-content: space-around;
+  padding: 110px 255px;
+  gap: 300px;
+  /* background-color: rgb(245, 241, 237); */
+  /* margin-left: 50px; */
+  /* margin-right: 50px; */
+  /* margin-bottom: 100px; */
+  /* border-radius: 25px; */
+
+ 
+}
+.action-title{
+  font-size: 40px;
+  font-weight: bold;
+  color: #252432;
+}
+.action-sub-title{
+  color: #252432;
+  font-size: 24px;
+  font-weight: normal;
+  padding-bottom: 12px;
+}
+.action-part-CL-1 button{
+  background-color: #4E47FF;
+   color: white;
+   border: none; 
+   padding:10px 20px ;
+   border-radius: 5px;
+   font-weight: bold;
+   cursor: pointer;
+   transition: 0.3s;  
+   font-size: 16px; 
+}
+.action-part-CL-1 button:hover{
+  background-color: coral;
+}
+.action-part-CL-1 {
+  gap:5px;
+}
+.action-part-CL-2 img{
+  width: 400px;
+  height: 330px;
+  border: none;
+  border-radius: 40px;
+}
+/*  */
