@@ -9,6 +9,7 @@
   }
   body{
     margin: 0;
+    background-color: rgb(227, 246, 252);
   }
 
   /* header design */
@@ -119,7 +120,7 @@ nav button:hover{
 /* user section design */
 .user-section{
   background-color: #cecde9;
-  margin: 50px 150px;
+  margin: 50px 220px;
   padding: 55px 90px;
   border-radius: 10px;
   width: auto;
@@ -202,4 +203,78 @@ nav button:hover{
   color: darkgray;
   font-weight: 400;
 }
+
+/*  form-section */
+.Form-title{
+  font-size: 60px;
+  font-weight: bold;
+  color: #000000;
+  line-height: 1.2;
+}
+.Form-Section{
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  padding: 40px 20px;
+  gap: 120px;
+  align-items: center;
+  width: 1140px;
+  height: 650px;
+  /* margin: 0 400px 0 110px; */
+  margin: auto;
+ 
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  width: 400px;
+  margin-bottom: 40px;
+  flex: 1;
+  
+}
+label{
+  font-weight:bold;
+  font-size: 18px;
+}
+input{
+  flex: 1;
+  width: 450px;
+  height: 45px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 12px;
+  margin-bottom: 20px;
+  
+
+
+}
+.form button{
+  color: #f7f7f8;
+  background-color: #4E47FF;
+  cursor: pointer;
+  transition: 0.3s;
+  height: 45px;
+  width: 472px;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  padding: 12px;
+
+}
+.form button:hover{
+  background-color: coral;
+}
+textarea{
+  height: 120px;
+  width: 450px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 12px;
+  margin-bottom: 20px;
+
+}
+
 
